@@ -50,7 +50,7 @@ python app.py <name_or_id>
 ### Examples
 
 ```bash
-python app.py pikachu
+python app.py charizard
 ```
 
 ---
