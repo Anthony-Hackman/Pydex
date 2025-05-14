@@ -53,6 +53,10 @@ python app.py <name_or_id>
 python app.py charizard
 ```
 
+```bash
+python app.py 6
+```
+
 ---
 
 ## Sample Output
