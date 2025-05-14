@@ -1,4 +1,5 @@
 # Pokédex CLI
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![License](https://img.shields.io/github/license/Anthony-Hackman/pokedex_cli) 
 
 **Pokédex CLI** a Python-based command-line tool that retrieves and displays detailed information about Pokémon using data from the [PokéAPI](https://pokeapi.co/). The application supports queries by both name and ID, returning a readable output in the terminal.
 
