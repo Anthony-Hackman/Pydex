@@ -42,6 +42,7 @@
      ```bash
      .venv\Scripts\activate
      ```
+
    * On **macOS/Linux**:
 
      ```bash
@@ -126,3 +127,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 * [PokéAPI](https://pokeapi.co/) Created by Paul Hallett and other PokéAPI contributors around the world.
 * [Pokémondb](https://pokemondb.net/) Database, 2008-2025.
 * [Pokémon](https://www.pokemon.com/) Images & Names © 1995-2025 Nintendo/Game Freak.
+  
