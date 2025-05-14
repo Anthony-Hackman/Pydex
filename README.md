@@ -62,7 +62,7 @@ python app.py charizard
 Sprite: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png
 Type(s): Fire, Flying
 Abilities: Blaze, Solar-Power
-Introduced in: Generation I
+Introduced in: GENERATION I
 Fun Fact: Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.
 
         Base Stats
