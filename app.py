@@ -18,7 +18,7 @@ def search(name_or_id: str):
         console.print(f"[bold green]Sprite:[/bold green] {data['sprite_url'] or 'N/A'}")
         console.print(f"[bold green]Type(s):[/bold green] {', '.join(data['types'])}")
         console.print(f"[bold green]Abilities:[/bold green] {', '.join(data['abilities'])}")
-        console.print(f"[bold green]Introduced in:[/bold green] {data['generation'].upper()}") #Changed 'generation' to 'generation'.upper()' to enforce roman numerals
+        console.print(f"[bold green]Introduced in:[/bold green] {data['generation'].upper()}") # Changed 'generation' to 'generation'.upper()' to enforce roman numerals
         console.print(f"[bold green]Fun Fact:[/bold green] {data['fun_fact']}")
 
         table = Table(title="Base Stats")
