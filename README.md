@@ -84,7 +84,7 @@ Fun Fact: Spits fire that is hot enough to melt boulders. Known to cause forest 
 │ Speed           │   100 │
 └─────────────────┴───────┘
 ```
-![DexUI](Resources/Screenshot-2025-05-15.png)
+![DexUI](Resources/Screenshot-2025-05-15(2).png)
 ---
 
 ## Contributing
