@@ -1,5 +1,6 @@
 # Pokédex CLI
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![License](https://img.shields.io/github/license/Anthony-Hackman/pokedex_cli) 
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![License](https://img.shields.io/github/license/Anthony-Hackman/pokedex_cli)
 
 **Pokédex CLI** a Python-based command-line tool that retrieves and displays detailed information about Pokémon using data from the [PokéAPI](https://pokeapi.co/). The application supports queries by both name and ID, returning a readable output in the terminal.
 
@@ -25,16 +26,14 @@
 
 ### Setup Instructions
 
-**Clone the repository**
+#### Clone the repository
 
    ```bash
    git clone https://github.com/anthony-hackman/pokedex_cli.git
    cd pokedex_cli
    ```
 
-
-
-**Install dependencies**
+#### Install dependencies
 
    ```bash
    pip install -r requirements.txt
@@ -84,7 +83,9 @@ Fun Fact: Spits fire that is hot enough to melt boulders. Known to cause forest 
 │ Speed           │   100 │
 └─────────────────┴───────┘
 ```
+
 ![DexUI](Resources/Screenshot-2025-05-15(2).png)
+
 ---
 
 ## Contributing
