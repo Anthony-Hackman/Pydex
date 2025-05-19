@@ -67,7 +67,7 @@ python app.py 6
 
 ---
 
-## Sample Output
+## Example: Output
 
 ```text
 ─────────────────────────────── #6 - Charizard ────────────────────────────────
