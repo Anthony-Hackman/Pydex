@@ -1,5 +1,6 @@
 # DexUI.py 
-#
+# User Interface built around app.py
+
 from PyQt6.QtWidgets import (
     QApplication, QDialog, QGridLayout, QGroupBox, QHBoxLayout,
     QLabel, QPushButton, QLineEdit, QTableWidget, QTableWidgetItem, QTabWidget,
