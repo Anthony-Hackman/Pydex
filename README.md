@@ -4,7 +4,7 @@
 
 **Pokédex CLI** a Python based command line tool that retrieves and displays detailed information about Pokémon using data from the [PokéAPI](https://pokeapi.co/). The application supports queries by both name and ID, returning a readable output in the terminal.
 
-**DexUI**: A User Interface (UI) created using logic from app.py, with populated data by pokeapi/fetch.py.
+**DexUI**: A User Interface (UI) utilizing the PyQt6 library for visual elements; built around app.py, with populated data by pokeapi/fetch.py.
 
 ---
 
