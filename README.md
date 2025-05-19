@@ -28,15 +28,21 @@
 
 #### Clone the repository
 
-   ```bash
+   ```
    git clone https://github.com/anthony-hackman/pokedex_cli.git
    cd pokedex_cli
    ```
 
 #### Install dependencies
 
-   ```bash
+   ```
    pip install -r requirements.txt
+   ```
+
+*For DexUI you will need to additionally use*
+
+   ```
+   pip install PyQt6
    ```
 
 ---
