@@ -1,4 +1,4 @@
-# app.py
+# main.py
 # Main CLI Entrypoint
 
 import typer
