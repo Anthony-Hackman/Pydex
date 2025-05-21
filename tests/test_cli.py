@@ -7,8 +7,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from unittest.mock import patch
 from typer.testing import CliRunner
-import main  # main.app is the Typer app
-
+import main
+from pokeapi.fetch import get_pokemon_data
+from pokeapi import fetch
 
 def test_cli_search_command():
     runner = CliRunner()
