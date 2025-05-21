@@ -2,8 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Tests](https://img.shields.io/github/actions/workflow/status/Anthony-Hackman/Pokedex/python-app.yml?branch=main)
-![License](https://img.shields.io/github/license/Anthony-Hackman/pokedex_cli) 
-
+![License](https://img.shields.io/github/license/Anthony-Hackman/pokedex_cli)
 
 **Pokédex** a Python based command line tool that retrieves and displays detailed information about Pokémon using data from the [PokéAPI](https://pokeapi.co/). The application supports queries by both name and ID, returning a readable output in the terminal.
 
@@ -12,7 +11,9 @@
 ---
 
 ## Features
+
 ![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white)
+
 * Search for Pokémon by name or ID
 * Display types, abilities, base stats, and generation
 * Show sprite image URL
