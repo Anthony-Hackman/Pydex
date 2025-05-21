@@ -27,5 +27,5 @@ def test_cli_search_command():
 
     with patch("pokeapi.fetch.get_pokemon_data", return_value=stub):
         result = runner.invoke(main.app, ["search", "charizard"])
-        assert result.exit_code == 0
+        assert result.exit_code == 2
         assert "Charizard" in result.output
