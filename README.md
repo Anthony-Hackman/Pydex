@@ -28,20 +28,20 @@
 
 #### Clone the repository
 
-   ```
+   ```bash
    git clone https://github.com/anthony-hackman/pokedex_cli.git
    cd pokedex_cli
    ```
 
 #### Install dependencies
 
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
 
-*For DexUI you will need to additionally use*
+#### Additional Requirement for DexUI
 
-   ```
+   ```bash
    pip install PyQt6
    ```
 
@@ -123,4 +123,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 * [PokéAPI](https://pokeapi.co/) Created by Paul Hallett and other PokéAPI contributors around the world.
 * [Pokémondb](https://pokemondb.net/) Database, 2008-2025.
 * [Pokémon](https://www.pokemon.com/) Images & Names © 1995-2025 Nintendo/Game Freak.
-  
+*
