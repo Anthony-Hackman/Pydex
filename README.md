@@ -34,7 +34,7 @@
 
    ```bash
    git clone https://github.com/anthony-hackman/pokedex.git
-   cd pokedex_cli
+   cd pokedex
    ```
 
 #### Install dependencies
