@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from unittest.mock import patch
 from typer.testing import CliRunner
-import main
+import app
 from pokeapi.fetch import get_pokemon_data
 from pokeapi import fetch
 
