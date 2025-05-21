@@ -1,7 +1,9 @@
 # Pokédex
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![License](https://img.shields.io/github/license/Anthony-Hackman/pokedex_cli) 
-![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Tests](https://img.shields.io/github/actions/workflow/status/Anthony-Hackman/Pokedex/python-app.yml?branch=main)
+![License](https://img.shields.io/github/license/Anthony-Hackman/pokedex_cli) 
+
 
 **Pokédex** a Python based command line tool that retrieves and displays detailed information about Pokémon using data from the [PokéAPI](https://pokeapi.co/). The application supports queries by both name and ID, returning a readable output in the terminal.
 
@@ -10,7 +12,7 @@
 ---
 
 ## Features
-
+![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white)
 * Search for Pokémon by name or ID
 * Display types, abilities, base stats, and generation
 * Show sprite image URL
@@ -22,7 +24,7 @@
 
 ### Prerequisites
 
-* Python 3.12
+* Python 3.10+
 * `pip` (Python package installer)
 
 ### Setup Instructions
@@ -30,7 +32,7 @@
 #### Clone the repository
 
    ```bash
-   git clone https://github.com/anthony-hackman/pokedex_cli.git
+   git clone https://github.com/anthony-hackman/pokedex.git
    cd pokedex_cli
    ```
 
