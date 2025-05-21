@@ -108,7 +108,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests:
 
 ## Tests
 
-*No tests available yet.*
+Tests are available under /tests directory.
 
 ---
 
