@@ -1,6 +1,10 @@
 """
 Smoke test the Typer CLI (main.py).
 """
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from unittest.mock import patch
 from typer.testing import CliRunner
 import main  # main.app is the Typer app
