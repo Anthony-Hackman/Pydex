@@ -33,8 +33,8 @@
 #### Clone the repository
 
    ```bash
-   git clone https://github.com/anthony-hackman/pokedex.git
-   cd pokedex
+   git clone https://github.com/anthony-hackman/Pydex.git
+   cd Pydex
    ```
 
 #### Install dependencies
