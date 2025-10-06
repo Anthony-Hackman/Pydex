@@ -36,10 +36,14 @@ def test_cli_search_command_success():
 
     # 2. Assert key information and formatting is present
     # Check the rule/title line
-    assert "─────────────────────── #6 - Charizard ────────────────────────" in result.stdout
-    # Check the generation capitalization logic (e.g., 'i' becomes 'I')
+    # Fix 1: Check the rule/title line for content, not exact length
+    assert "#6 - Charizard" in result.stdout
+    
+    # Fix 2: Check the generation line for content, excluding Rich formatting
+    # The actual output only contains the plain text: "Introduced in: GENERATION I"
     assert "Introduced in: GENERATION I" in result.stdout
-    # Check key fields
+    
+    # Check key fields (These assertions are already correct as they check content only)
     assert "Sprite: http://sprite.url/6.png" in result.stdout
     assert "Type(s): Fire, Flying" in result.stdout
     assert "Abilities: Blaze, Solar Power" in result.stdout
@@ -65,4 +69,8 @@ def test_cli_search_command_error():
     assert result.exit_code == 1
 
     # 2. Assert error message is printed
-    assert "[bold red]Error:[/bold red] Failed to fetch Pokémon data: 404 Client Error: Not Found for url" in result.stdout
+    # Fix: Check the plain text error output, which is what CliRunner captures
+    assert "Error: Failed to fetch Pokémon data: 404 Client Error: Not Found for url" in result.stdout
+
+    # The original failed line (commented or removed):
+    # assert "[bold red]Error:[/bold red] Failed to fetch Pokémon data: 404 Client Error: Not Found for url" in result.stdout
