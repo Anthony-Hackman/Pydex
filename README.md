@@ -4,77 +4,83 @@
 ![Tests](https://img.shields.io/github/actions/workflow/status/Anthony-Hackman/Pokedex/python-app.yml?branch=main)
 ![License](https://img.shields.io/github/license/Anthony-Hackman/pokedex_cli)
 
-**Pydex** a Python based command line tool that retrieves and displays detailed information about Pokémon using data from the [PokéAPI](https://pokeapi.co/). The application supports queries by both name and ID, returning a readable output in the terminal.
+**Pydex** is a powerful **Python-based command-line tool** that lets you instantly retrieve detailed information about any Pokémon. Built using data from the [PokéAPI](https://pokeapi.co/), Pydex provides a clean, readable output right in your terminal, supporting queries by both **name** and **ID**.
 
-**DexUI**: A User Interface (UI) utilizing the PyQt6 library for visual elements; built around app.py, with populated data by pokeapi/fetch.py.
+## DexUI (Optional Graphical Interface)
 
----
+For a visual experience, Pydex includes **DexUI**, a separate graphical user interface (GUI) built with the PyQt6 library.
 
-## Features
+### Features
+
+* Search for Pokémon by **Name** or **ID**.
+* Display **Type(s), Abilities, Base Stats,** and **Generation**.
+* Show the official **Sprite Image URL**.
+* Includes the official **flavor text** (fun fact) just like the original!
 
 ![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white)
 
-* Search for Pokémon by name or ID
-* Display types, abilities, base stats, and generation
-* Show sprite image URL
-* Include official flavor text (fun fact)
+## Setup Instructions
+
+To get Pydex running quickly, this project uses a standard `requirements.txt` file to manage all necessary libraries.
 
 ---
-
-## Installation
 
 ### Prerequisites
 
 * Python 3.10+
-* `pip` (Python package installer)
 
-### Setup Instructions
+* `pip` -  (Python package installer)
 
-#### Clone the repository
+### Dependencies
 
-   ```bash
-   git clone https://github.com/anthony-hackman/Pydex.git
-   cd Pydex
-   ```
+* **`requests`** -  For making HTTP calls to the PokéAPI
+* **`rich`** - For generating readable terminal output and tables
+* **`typer`** - For building the command-line interface
+* **`PyQt6`** - Required to run the graphical user interface (Optional, if not using DexUI.py).
 
-#### Install dependencies
+To ensure the ease of installation, all of the above (excluding prerequisites) are included in the `requirements.txt` file.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-#### Additional Requirement for DexUI
-
-   ```bash
-   pip install PyQt6
-   ```
-
----
-
-## Usage
-
-Run the application with a Pokémon name or ID:
+## Clone the repository
 
 ```bash
-python app.py <name_or_id>
-```
+git clone https://github.com/anthony-hackman/Pydex.git
+cd Pydex
+   ```
 
-### Examples
+## Install dependencies
+
+Install all required packages (including the optional GUI library, PyQt6) using the requirements file:
 
 ```bash
-python app.py charizard
+pip install -r requirements.txt
 ```
+
+## Example Usage
+
+You can run the CLI application by entering the name of the file `pydex.py`, the function `search`, followed by the Pokémon's `Name` or `ID`.
 
 ```bash
-python app.py 6
+<file> <function> <name_or_id>
 ```
 
----
+For example, to search for the Pokémon `Charizard`, navigate to the directory containing the pydex repository and enter:
 
-## Sample Output
+```bash
+pydex.py search Charizard
+```
+
+To run the graphic user interface, simply run:
+
+```bash
+python DexUI.py
+```
+
+### Sample Output from CLI
+
+(pydex.py)
 
 ```text
-─────────────────────────────── #6 - Charizard ────────────────────────────────
+───────────────────────────── #6 - Charizard ────────────────────────────────
 Sprite: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png
 Type(s): Fire, Flying
 Abilities: Blaze, Solar-Power
@@ -94,13 +100,15 @@ Fun Fact: Spits fire that is hot enough to melt boulders. Known to cause forest 
 └─────────────────┴───────┘
 ```
 
-![DexUI](Resources/Screenshot-2025-05-15(2).png)
+### Sample from Graphic User Interface
 
----
+(PyDex.py)
+
+![DexUI](Resources/Screenshot-2025-05-15(2).png)
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests:
+I welcome contributions! If you want to help improve Pydex, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/my-feature`
@@ -112,7 +120,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests:
 
 ## Tests
 
-Tests are available under /tests directory.
+Tests are available! - Please check under the /tests directory.
 
 ---
 
@@ -124,7 +132,8 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-* [PokéAPI](https://pokeapi.co/) Created by Paul Hallett and other PokéAPI contributors around the world.
-* [Pokémondb](https://pokemondb.net/) Database, 2008-2025.
-* [Pokémon](https://www.pokemon.com/) Images & Names © 1995-2025 Nintendo/Game Freak.
-*
+* [PokéAPI](https://pokeapi.co/) - Created by Paul Hallett and other contributors.
+
+* [Pokémondb](https://pokemondb.net/) - Database, 2008-2025.
+
+* [Pokémon](https://www.pokemon.com/) - Images & Names © 1995-2025 Nintendo/Game Freak.

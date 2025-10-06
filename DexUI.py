@@ -1,5 +1,6 @@
 # DexUI.py 
-# User Interface built around app.py
+# User Interface built around pydex.py
+# @author Anthony Hackman
 
 from PyQt6.QtWidgets import (
     QApplication, QDialog, QGridLayout, QGroupBox, QHBoxLayout,
