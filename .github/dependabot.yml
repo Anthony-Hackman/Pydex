@@ -17,9 +17,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    # Ensure an appropriate python version is specified in pyenv or setup-python actions:
-    # For workflows using actions/setup-python:
-    steps:
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+    python-version: "3.11"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
