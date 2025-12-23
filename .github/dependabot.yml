@@ -3,9 +3,23 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
+#version: 2
+#updates:
+#  - package-ecosystem: "pip" # See documentation for possible values
+#    directory: "/" # Location of package manifests
+#    schedule:
+#      interval: "weekly"
+
+# Example for .github/dependabot.yml or workflow file (dynamic/dependabot/dependabot-updates)
 version: 2
 updates:
-  - package-ecosystem: "pip" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "pip"
+    directory: "/"
     schedule:
       interval: "weekly"
+    # Ensure an appropriate python version is specified in pyenv or setup-python actions:
+    # For workflows using actions/setup-python:
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
