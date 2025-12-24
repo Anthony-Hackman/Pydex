@@ -49,10 +49,10 @@ cd Pydex
 
 ## Install dependencies
 
-Install all required packages (including the optional GUI library, PyQt6) using the requirements file:
+Install all required packages using the requirements file:
 
 ```bash
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ## Example Usage
@@ -72,7 +72,7 @@ pydex.py search Charizard
 To run the graphic user interface, simply run:
 
 ```bash
-python DexUI.py
+python3 DexUI.py
 ```
 
 ### Sample Output from CLI
@@ -102,7 +102,7 @@ Fun Fact: Spits fire that is hot enough to melt boulders. Known to cause forest 
 
 ### Sample from Graphic User Interface
 
-(PyDex.py)
+(DexUI.py)
 
 ![DexUI](Resources/Screenshot-2025-05-15(2).png)
 
@@ -120,13 +120,13 @@ I welcome contributions! If you want to help improve Pydex, please follow these 
 
 ## Tests
 
-Tests are available! - Please check under the /tests directory.
+Tests are available under the /tests directory.
 
 ---
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+[MIT License](LICENSE)
 
 ---
 
