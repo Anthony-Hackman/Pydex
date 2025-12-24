@@ -3,21 +3,9 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
-#version: 2
-#updates:
-#  - package-ecosystem: "pip" # See documentation for possible values
-#    directory: "/" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
-
-# Example for .github/dependabot.yml or workflow file (dynamic/dependabot/dependabot-updates)
 version: 2
 updates:
-  - package-ecosystem: "pip"
-    directory: "/"
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-    python-version: "3.10"
-    open-pull-requests-limit: 5
-    labels:
-      - "dependencies"
