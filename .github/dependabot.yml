@@ -17,7 +17,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    python-version: "3.11"
+    python-version: "3.10"
     open-pull-requests-limit: 5
     labels:
       - "dependencies"
