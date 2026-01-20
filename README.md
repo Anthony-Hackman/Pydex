@@ -134,6 +134,6 @@ Tests are available under the /tests directory.
 
 * [PokéAPI](https://pokeapi.co/) - Created by Paul Hallett and other contributors.
 
-* [Pokémondb](https://pokemondb.net/) - Database, 2008-2025.
+* [Pokémondb](https://pokemondb.net/) - Database, 2008-2026.
 
-* [Pokémon](https://www.pokemon.com/) - Images & Names © 1995-2025 Nintendo/Game Freak.
+* [Pokémon](https://www.pokemon.com/) - Images & Names © 1995-2026 Nintendo/Game Freak.
